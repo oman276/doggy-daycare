@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2053226095334105694
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2053226095334105695}
+  - component: {fileID: 2053226095334105688}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2053226095334105695
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053226095334105694}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.0724242, y: -1.3657973, z: 3.7089844}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2053226095334105688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053226095334105694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82db988a09055054fb38c94fcd65d26e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: theme
+    clip: {fileID: 8300000, guid: 33c85b02439277c45b7270e404243bcb, type: 3}
+    volume: 0.149
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: bark
+    clip: {fileID: 8300000, guid: 7d5e1fd461437184d8c469ac24c0ddac, type: 3}
+    volume: 0.539
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: glass
+    clip: {fileID: 8300000, guid: 2da8042668e6dd8478d29fc3f16ceff5, type: 3}
+    volume: 0.611
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: press
+    clip: {fileID: 8300000, guid: 60decb9c4f9992543b163c7db27ce760, type: 3}
+    volume: 0.263
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: pat
+    clip: {fileID: 8300000, guid: a8a78bdf41560fb4ebff1e2a2b73d437, type: 3}
+    volume: 0.326
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: treat
+    clip: {fileID: 8300000, guid: 52e5809cecc4cf34ab78e4a4c830934d, type: 3}
+    volume: 0.496
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
