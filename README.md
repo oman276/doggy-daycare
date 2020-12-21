@@ -17,6 +17,6 @@ dogs may be messy, but it gives them needs they need satisfied, as well as disti
 and seeking out vases to knock over. Unfortunately, the time it took me to perfect this system made me unable to implement 
 some of the other ideas I had for other interactible objects. 
 
-This game jam was not ranked. All art, sound, and code were created solely by me. In the game's files, there is code for 
-other pre-made AI pathfinding systems, but they didn't work for the game I had in mind. The code that the dogs ultimately 
-use is 100% my code.
+There were 521 entries to the jam, but this game jam was not ranked. All art, sound, and code were created solely by me. 
+In the game's files, there is code for other pre-made AI pathfinding systems, but they didn't work for the game I had in 
+mind. The code that the dogs ultimately use is 100% my code.
